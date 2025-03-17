@@ -1,0 +1,48 @@
+baseURL = 'https://isabellabreder.github.io'
+languageCode = 'en-us'
+title = 'Isabella Breder'
+theme = 'hugo-coder'
+
+[pagination]
+pagerSize = 20
+
+[services]
+[markup.highlight]
+style = "github-dark"
+
+[params]
+	author = "Isabella Breder"
+	info = "Curious mind, FOSS heart, soon-to-be SRE"
+	description = "Isabella Breder's personal website"
+	keywords = "blog,personal,developer"
+	avatarURL = "images/avatar.jpg"
+	
+	since = 2025
+	
+	enableTwemoji = true
+	
+	colorScheme = "auto"
+
+	hidecolorschemetoggle = false
+
+# Social
+[[params.social]]
+	name = "Github"
+	icon = "fa-brands fa-github fa-2x"
+	weight = 1
+	url = "https://github.com/isabellabreder/"
+[[params.social]]
+	name = "Linkedin"
+	icon = "fa-brands fa-linkedin fa-2x"
+	weight = 2
+	url = "https://www.linkedin.com/in/isabella-breder/"
+
+# Menu links
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	url = "posts/"
+[[menu.main]]
+	name = "About"
+	weight = 2
+	url = "about/"
